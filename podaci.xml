@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE podaci SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<podaci>
+	<sudionik>
+		<ime_kluba>Fenerbahce Ulker</ime_kluba>
+		<drzava>Turska</drzava>
+		<godina_osnivanja>1913</godina_osnivanja>
+		<fid>300432120108123</fid>
+		<trener uloga="glavni">
+			<ime_trenera>ŽeLimir</ime_trenera>
+			<prezime_trenera>Obradović</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Ülker Sports Arena</ime_stadiona>
+			<kapacitet>veliki</kapacitet>
+			<godina_izgradnje>2012</godina_izgradnje>
+			<adresa postanski_broj="34000">Ihlamur Sok</adresa>
+		</stadion>
+		<mail_adresa>info@ulkersportsarena.com</mail_adresa>
+		<navijaci>nasilni</navijaci>
+		<kljucni_igrac>
+			<ime>Jan</ime>
+			<prezime>Vesely</prezime>
+			<pozicija>krilni centar</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Fener</ime_kluba>
+		<drzava>Turskaaaa</drzava>
+		<godina_osnivanja>1914</godina_osnivanja>
+		<fid>300432120108123</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Želimirko</ime_trenera>
+			<prezime_trenera>Obradovićko</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Ülker Sports</ime_stadiona>
+			<kapacitet>srednji</kapacitet>
+			<godina_izgradnje>2013</godina_izgradnje>
+			<adresa postanski_broj="34000">Ihlamur Sok</adresa>
+		</stadion>
+		<mail_adresa>info@ulkersportsarena.com</mail_adresa>
+		<navijaci>nema</navijaci>
+		<kljucni_igrac>
+			<ime>Janko</ime>
+			<prezime>Veselko</prezime>
+			<pozicija>krilni centar</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Olimpiacos</ime_kluba>
+		<drzava>Grčka</drzava>
+		<godina_osnivanja>1931</godina_osnivanja>
+		<fid>304321388288</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Ioannis</ime_trenera>
+			<prezime_trenera>Sfairopoulos</prezime_trenera>
+		</trener>
+		<trener uloga="kondicijski">
+			<ime_trenera>Martin</ime_trenera>
+			<prezime_trenera>DJ</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Peace and Friendship Stadium</ime_stadiona>
+			<kapacitet>veliki</kapacitet>
+			<godina_izgradnje>1985</godina_izgradnje>
+			<adresa postanski_broj="11476">Piraeus</adresa>
+		</stadion>
+		<mail_adresa>info@osfp.gr</mail_adresa>
+		<navijaci>glasni</navijaci>
+		<kljucni_igrac>
+			<ime>Vassilis</ime>
+			<prezime>Spanoulis</prezime>
+			<pozicija>razigravač</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Barcelona Lassa</ime_kluba>
+		<drzava>Španjolska</drzava>
+		<godina_osnivanja>1926</godina_osnivanja>
+		<fid>171144562907744</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Xavi</ime_trenera>
+			<prezime_trenera>Pascual</prezime_trenera>
+		</trener>
+		<trener uloga="pomoćni">
+			<ime_trenera>David</ime_trenera>
+			<prezime_trenera>Garcia</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Palau Blaugrana</ime_stadiona>
+			<kapacitet>mali</kapacitet>
+			<godina_izgradnje>1971</godina_izgradnje>
+			<adresa postanski_broj="08071">Barcelona</adresa>
+		</stadion>
+		<mail_adresa>seccio.basquet@fcbarcelona.cat</mail_adresa>
+		<navijaci>malobrojni</navijaci>
+		<kljucni_igrac>
+			<ime>Juan Carlos</ime>
+			<prezime>Navarro</prezime>
+			<pozicija>razigravač</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>CSKA Moscow</ime_kluba>
+		<drzava>Rusija</drzava>
+		<godina_osnivanja>1823</godina_osnivanja>
+		<fid>136809531794</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Dimitris</ime_trenera>
+			<prezime_trenera>Itoudis</prezime_trenera>
+		</trener>
+		<trener uloga="pomoćni">
+			<ime_trenera>Andreas</ime_trenera>
+			<prezime_trenera>Pistiolis</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Alexander Gomelskiy Sport Hall</ime_stadiona>
+			<kapacitet>mali</kapacitet>
+			<godina_izgradnje>1979</godina_izgradnje>
+			<adresa postanski_broj="125167">Leningradskiy prospect</adresa>
+		</stadion>
+		<mail_adresa>club@cskabasket.com</mail_adresa>
+		<navijaci>nasilni</navijaci>
+		<kljucni_igrac>
+			<ime>Miloš</ime>
+			<prezime>Teodosić</prezime>
+			<pozicija>razigravač</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Emporio Armani Milano</ime_kluba>
+		<drzava>Italija</drzava>
+		<godina_osnivanja>1936</godina_osnivanja>
+		<fid>134473006626000</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Jasmin</ime_trenera>
+			<prezime_trenera>Repeša</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Mediolanum Forum</ime_stadiona>
+			<kapacitet>srednji</kapacitet>
+			<godina_izgradnje>1990</godina_izgradnje>
+			<adresa postanski_broj="20090">Giuseppe di Vittorio 6</adresa>
+		</stadion>
+		<mail_adresa>info@armani.com</mail_adresa>
+		<navijaci>malobrojni</navijaci>
+		<kljucni_igrac>
+			<ime>Krunoslav</ime>
+			<prezime>Simon</prezime>
+			<pozicija>šuter</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Cibona</ime_kluba>
+		<drzava>Hrvatska</drzava>
+		<godina_osnivanja>2005</godina_osnivanja>
+		<fid>166291480059508</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Damir</ime_trenera>
+			<prezime_trenera>Mulaomerović</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Draženov Dom</ime_stadiona>
+			<kapacitet>srednji</kapacitet>
+			<godina_izgradnje>1984</godina_izgradnje>
+			<adresa postanski_broj="10000">Cibonin prolaz 1</adresa>
+		</stadion>
+		<mail_adresa>info@cibona.hr</mail_adresa>
+		<navijaci>nema</navijaci>
+		<kljucni_igrac>
+			<ime>Nik</ime>
+			<prezime>Slavica</prezime>
+			<pozicija>krilni centar</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Lokomotiv Kuban</ime_kluba>
+		<drzava>Rusija</drzava>
+		<godina_osnivanja>1888</godina_osnivanja>
+		<fid>215336755143094</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Jevgenij</ime_trenera>
+			<prezime_trenera>Pašutin</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Baskethall</ime_stadiona>
+			<kapacitet>veliki</kapacitet>
+			<godina_izgradnje>1983</godina_izgradnje>
+			<adresa postanski_broj="1110000">Krasnodar</adresa>
+		</stadion>
+		<mail_adresa>ilokoVkuban@kras.ru</mail_adresa>
+		<navijaci>malobrojni</navijaci>
+		<kljucni_igrac>
+			<ime>Malcom</ime>
+			<prezime>Delaney</prezime>
+			<pozicija>krilo</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Laboral Kutxa</ime_kluba>
+		<drzava>Španjolska</drzava>
+		<godina_osnivanja>1752</godina_osnivanja>
+		<fid>351032417635</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Velimir</ime_trenera>
+			<prezime_trenera>Perasović</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Baskonia</ime_stadiona>
+			<kapacitet>srednji</kapacitet>
+			<godina_izgradnje>1999</godina_izgradnje>
+			<adresa postanski_broj="158414">Victoria 5</adresa>
+		</stadion>
+		<mail_adresa>kutxa@nesto.sp</mail_adresa>
+		<navijaci>malobrojni</navijaci>
+		<kljucni_igrac>
+			<ime>Ioannis</ime>
+			<prezime>Bourousis</prezime>
+			<pozicija>centar</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Real Madrid</ime_kluba>
+		<drzava>Španjolska</drzava>
+		<godina_osnivanja>1900</godina_osnivanja>
+		<fid>41549690725</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Pablo</ime_trenera>
+			<prezime_trenera>Laso</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Santiago Joseph</ime_stadiona>
+			<kapacitet>srednji</kapacitet>
+			<godina_izgradnje>1934</godina_izgradnje>
+			<adresa postanski_broj="752148">Concha Espina</adresa>
+		</stadion>
+		<mail_adresa>real@madrid.sp</mail_adresa>
+		<navijaci>nema</navijaci>
+		<kljucni_igrac>
+			<ime>Rudy</ime>
+			<prezime>Fernandez</prezime>
+			<pozicija>krilo</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+	<sudionik>
+		<ime_kluba>Panathanaikos</ime_kluba>
+		<drzava>Grčka</drzava>
+		<godina_osnivanja>2000</godina_osnivanja>
+		<fid>213376272021124</fid>
+		<trener uloga="glavni">
+			<ime_trenera>Aleksandar</ime_trenera>
+			<prezime_trenera>Džorđević</prezime_trenera>
+		</trener>
+		<stadion>
+			<ime_stadiona>Olympic center</ime_stadiona>
+			<kapacitet>mali</kapacitet>
+			<godina_izgradnje>1993</godina_izgradnje>
+			<adresa postanski_broj="10000">Marousi 37</adresa>
+		</stadion>
+		<mail_adresa>pana@dimi.gr</mail_adresa>
+		<navijaci>nasilni</navijaci>
+		<kljucni_igrac>
+			<ime>Dimitris</ime>
+			<prezime>Diamantidis</prezime>
+			<pozicija>šuter</pozicija>
+		</kljucni_igrac>
+	</sudionik>
+</podaci>

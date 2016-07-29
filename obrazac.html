@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Ovo je naslov stranice</title>
+	<link rel="stylesheet" type="text/css" href="dizajn.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<div id="header">
+		<h1>Euroleague</h1>
+	</div>
+
+	<div id="nav">
+		<img id="slike" src="slike/EuroleagueLogo.png" alt="Euroleague Logo">
+			<ul>
+				<li>
+					<a href="index.html">Početna</a></li>
+				<li>
+					<a href="obrazac.html">Pretraživanje</a></li>
+				<li>
+					<a href="http://www.fer.unizg.hr/predmet/or">Link na OR</a></li>
+				<li>
+					<a href="http://www.fer.unizg.hr" target="_blank">Link na FER</a></li>
+				<li>
+					<a class="link" href="mailto:josip.zuljevic@fer.hr">Kontakt e-mail</a></li>
+				<li>
+					<a href="podaci.xml">Podaci iz xml-a</a></li>
+			</ul>
+	</div>
+
+
+	<div id="novo">
+		<form action="pretraga.php" method="get" name="druga_pretraga">
+			<input type="text" name="brza">
+			<button type="submit" value="Sumbitanje">Brza</button>
+		</form>
+	</div>
+
+	<div id="input">
+		<form action="pretraga.php" method="get" name="pretraga">
+			<table summary="Form table" >
+				<tr>
+					<th colspan="2">Unos o klubu</th>
+				</tr>
+				<tr>
+					<td>
+						Ime kluba:
+					</td>
+					<td>
+						<input type="text" name="ime_kluba">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Država:
+					</td>
+					<td>
+						<input type="text" name="drzava">
+					</td>
+				</tr>
+				<tr>
+				<td>
+						Godina osnivanja:
+				</td>
+				<td>
+					 <input type="text" name="godina">
+				</td>
+				</tr>
+				<tr>
+					<td>
+						Ime trenera:
+					</td>
+					<td>
+						 <input type="text" name="ime_trenera">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Prezime trenera:
+					</td>
+					<td>
+						 <input type="text" name="prezime_trenera">
+					</td>
+				</tr>
+				<tr>
+					<td> 
+						Uloga:
+					</td>
+					<td>
+						<input type="radio" name="uloga[]" value="glavni"> Glavni trener<br>
+						<input type="radio" name="uloga[]" value="pomoćni"> Pomoćni trener<br>
+						<input type="radio" name="uloga[]" value="kondicijski"> Kondicijski trener
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Ime stadiona:
+					</td>
+					<td>
+						<input type="text" name="ime_stadiona">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Kapacitet:
+					</td>
+					<td>
+						<input type="radio" name="kapacitet" value="veliki"> Veliki<br>
+						<input type="radio" name="kapacitet" value="mali"> Mali<br>
+						<input type="radio" name="kapacitet" value="srednji"> Srednji
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Godina izgradnje:
+					</td>
+					<td>
+						<input type="text" name="godina_izgradnje">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Adresa:
+					</td>
+					<td>
+						<input type="text" name="adresa">
+				</tr>
+				<tr>
+					<td>
+						Poštanski broj:
+					</td>
+					<td>
+						<input type="text" name="pbr">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Mail:
+					</td>
+					<td>
+						<input type="text" name="mail">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Navijači:
+					</td>
+					<td>
+						<select name="kategorija[]" multiple>
+										<option value="mirni">Mirni</option>
+										<option value="nasilni">Nasilni</option>
+										<option value="malobrojni">Malobrojni</option>
+										<option value="glasni">Glasni</option>
+										<option value="nema">Nema ih</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Ime ključnog igrača:
+					</td>
+					<td>
+						<input type="text" name="imeIgrača">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Prezime ključnog igrača:
+					</td>
+					<td>
+						<input type="text" name="prezimeIgrača">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Pozicija:
+					</td>
+					<td>
+							<input type="checkbox" name="pozicija[]" value="razigravač">Razigravač<br>
+							<input type="checkbox" name="pozicija[]" value="šuter">Šuter<br>
+							<input type="checkbox" name="pozicija[]" value="krilo">Krilo<br>
+							<input type="checkbox" name="pozicija[]" value="krilni centar">Krilni centar<br>
+							<input type="checkbox" name="pozicija[]" value="centar">Centar
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="submit" value="Submit">Submit</button>
+						<button type="reset" value="Reset">Reset</button>
+					</td>
+				</tr>			
+			</table>
+		</form>
+	</div>
+
+	<div id="footer">
+		Josip Žuljević, 2016.g
+	</div>
+
+</div>
+
+</body>
+</html>

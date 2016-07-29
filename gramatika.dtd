@@ -1,0 +1,22 @@
+<!ELEMENT podaci (sudionik*)>
+<!ELEMENT sudionik (ime_kluba, drzava, godina_osnivanja?,fid ,trener+ ,stadion ,mail_adresa* ,navijaci*,kljucni_igrac)>
+<!ELEMENT ime_kluba (#PCDATA)>
+<!ELEMENT drzava (#PCDATA)>
+<!ELEMENT godina_osnivanja (#PCDATA)>
+<!ELEMENT fid (#PCDATA)>
+<!ELEMENT trener (ime_trenera ,prezime_trenera)>
+<!ELEMENT ime_trenera (#PCDATA)>
+<!ELEMENT prezime_trenera (#PCDATA)>
+<!ATTLIST trener uloga (glavni|kondicijski|pomoćni|prazno) "prazno">
+<!ELEMENT stadion (ime_stadiona,kapacitet,godina_izgradnje?,adresa)>
+<!ELEMENT ime_stadiona (#PCDATA)>
+<!ELEMENT godina_izgradnje (#PCDATA) >
+<!ELEMENT kapacitet (#PCDATA) >
+<!ELEMENT adresa (#PCDATA)>
+<!ATTLIST adresa postanski_broj (#PCDATA) #REQUIRED>
+<!ELEMENT mail_adresa (#PCDATA)>
+<!ELEMENT navijaci (#PCDATA)>
+<!ELEMENT kljucni_igrac (ime, prezime, pozicija?)>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT prezime (#PCDATA)>
+<!ELEMENT pozicija (#PCDATA)>

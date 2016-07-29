@@ -1,0 +1,262 @@
+#header {
+    color:#3E42D3;
+    text-align:center;
+    display: inline-block;
+    margin-left: 270px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+#nav {
+    line-height:80px;
+    height:200px;
+    float:left;
+    padding:4px;
+    width: 15em;
+    margin-left: 150px;
+    margin-top:20px;
+    display: inline-block;
+}
+
+#nav li a{
+	list-style: square;
+	color: blue;
+	text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #65D2F7;
+    cursor: pointer;
+}
+
+#table1 {
+	width: 250px;
+	height: 250px;
+	margin-left: 455px;
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#table1 tr{
+	text-align: center;
+	padding: 10px;
+}
+
+#table1 td{
+	align-items: center;
+	align-content: center;
+}
+
+#table1 th{
+	text-align: center;
+}
+
+#table2 {
+	width: 250px;
+	height: 250px;
+	margin-left: 140px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#table2 tr{
+	text-align: center;
+	padding: 10px;
+}
+
+#table2 th{
+	text-align: center;
+}
+
+#table3 {
+	width: 250px;
+	height: 250px;
+	margin-left: 445px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#table3 tr{
+	text-align: center;
+	padding: 10px;
+}
+
+#table3 th{
+	text-align: center;
+}
+
+#table4 {
+	width: 250px;
+	height: 250px;
+	margin-left: 140px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#table4 tr{
+	text-align: center;
+	padding: 10px;
+}
+
+#table4 th{
+	text-align: center;
+}
+
+#statistics_table {
+	margin-left: 500px;
+	margin-top: 100px;
+	border:dotted;
+	border-width: 1px;
+	padding: 10px 10px 10px 10px;
+}
+
+#statistics_table tr td {
+	padding: 0 1px 0 10px;
+}
+
+#footer {
+    clear:both;
+    text-align:right;
+    padding:20px;
+    margin-right: 150px;
+}
+
+img{
+	margin-top: 3px;
+	height: 70px;
+	width: 70px;
+}
+
+#tekst {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 450px;
+	margin-right: 400px;
+}
+
+#slike {
+	height: 100px;
+	width: 100px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.list {
+	text-align: center;
+	padding: 0 20 0 20 ;
+}
+
+.list ul {
+	align-self: center;
+}
+
+#input {
+	margin-top: 50px;
+	margin-left: 550px;
+}
+
+#input table tr th {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#input table tr td {
+	padding-bottom: 20px;
+}
+
+body {
+	background-image: url("slike/light_texture2269.jpg");
+}
+
+.wrapper {
+	font-family: "Libre Baskerville", serif;
+}
+
+#xml-table2 {
+	padding-left: 400px;
+	padding-top: 50px;
+	width: 1200px;
+	text-align: center;
+}
+
+#xml-table {
+	padding-top: 100px;
+	width: 800px;
+	text-align: center;
+}
+
+#xml-table tr td {
+	padding:7px;
+}
+
+#xml-table2 tr td {
+	padding:7px;
+}
+
+#xml-table tr:hover td {
+	background: #B5CEF9;	
+}
+
+#xml-table2 tr:hover td {
+	background: #B5CEF9;	
+}
+
+#xml-table th {
+	color: #D495BB;
+}
+
+#xml-table2 th {
+	color: #D495BB;
+}
+
+#query_table {
+	text-align: center;
+	padding: 10 20 10 0;
+}
+#query_table tr td {
+	padding:7px;
+}
+
+#query_table tr td img:hover {
+    cursor: pointer;
+}
+
+#dodaci {
+	float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 20px;
+    width: 400px;
+}
+
+#mapa {
+	margin-top: 600px;
+	height: 600px;
+	display: hidden;
+}
+
+#mapa2 {
+	margin-top: 620px;
+	height: 590px;
+	display: hidden;
+}
+
+#mapa3 {
+	margin-top: 600px;
+	height: 590px;
+	display: hidden;
+}
+
+#refresh {
+	float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: hidden;
+    line-height: 20px;
+    width: 400px;
+}
